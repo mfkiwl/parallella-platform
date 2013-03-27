@@ -1,0 +1,55 @@
+
+Parallella Platform HDL Source Code and Reference Design Package
+-----------------------------------------------------------------
+
+This directory contains the HDL source code of the Parallella platform and
+all the data needed for the reference design implementation, described
+in the "Parallella Platform Reference Design" user guide.
+
+Following is a short description of the files and directories found under the 
+root directory of this project:
+
+README   - short package introductory file
+COPYING  - GNU GENERAL PUBLIC LICENSE file
+doc/     - documentation directory
+hdl/     - HDL source code
+hdl_top/ - Top level HDL files*
+data/    - UCF files
+ip/      - XCO files
+
+*Note:
+The files found under hdl_top/ sub-directory are the top level design files of 
+the various Parallella platfrom versions, supported by the HDL source code in
+this package. The following versions of the platform are currently supported:
+
+- Parallella-16 Prototype (ZedBoard and 16-core Epiphany FMC)
+- Parallella-64 Prototype (ZedBoard and 64-core Epiphany FMC)
+
+=======================================
+DISCLAIMER
+
+This package is still in development process. There is no guarantee for
+backward compatibility of future releases.
+=======================================
+
+Copyright note:
+
+This file is part of the Parallella FPGA Reference Design.
+
+Copyright (C) 2013 Adapteva, Inc.
+Contributed by Roman Trogan <support@adapteva.com>
+
+This package is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License (or the GNU
+Lesser General Public License where explicitly noted) as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This package is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program (see the file COPYING).  If not, see
+<http://www.gnu.org/licenses/>.
